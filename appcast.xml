@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Today Updates</title>
+    <link>https://raw.githubusercontent.com/rimodev74/today-dist/main/appcast.xml</link>
+    <description>Auto-updates for Today app</description>
+    <!-- Généré par Scripts/release.sh — ne pas éditer à la main.
+         sparkle:version = l'entier CFBundleVersion : c'est lui que Sparkle compare. -->
+    <item>
+      <title>Version 0.4</title>
+      <pubDate>Thu, 30 Jul 2026 00:24:32 +0200</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://github.com/rimodev74/today-dist/releases/tag/v0.4</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.4/Today-release.dmg"
+        length="5795052"
+        type="application/octet-stream"
+        sparkle:edSignature="Y3Fe6pc/1LV+sWzyu7XclwZj4KTuI1JlA8U/j0niSF6hvbsUwPI4/XHchT3LfyFS2cHdECiGtLE/fqdcIxHCAQ==" />
+    </item>
+  </channel>
+</rss>
