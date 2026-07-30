@@ -4,20 +4,38 @@
     <title>Today Updates</title>
     <link>https://raw.githubusercontent.com/rimodev74/today-dist/main/appcast.xml</link>
     <description>Auto-updates for Today app</description>
-    <!-- Généré par Scripts/release.sh — ne pas éditer à la main.
-         sparkle:version = l'entier CFBundleVersion : c'est lui que Sparkle compare. -->
+    <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.5</title>
-      <pubDate>Thu, 30 Jul 2026 01:23:30 +0200</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>0.5</sparkle:shortVersionString>
+      <title>Version 0.6</title>
+      <pubDate>Thu, 30 Jul 2026 13:34:11 +0200</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://github.com/rimodev74/today-dist/releases/tag/v0.5</sparkle:releaseNotesLink>
+      <description><![CDATA[
+<style>
+  :root { color-scheme: light dark; }
+  body { font: -apple-system-body, -apple-system, system-ui; margin: 0; }
+  h2 { margin: 0 0 .2em; font-size: 1.15em; }
+  h3 { margin: 1.1em 0 .3em; font-size: 1em; }
+  p, li { line-height: 1.45; }
+  ol { padding-left: 1.2em; }
+</style>
+<h2>Today 0.6</h2>
+<p>Intégration du contenu dans les pages non travaillés</p>
+<h3>Première installation</h3>
+<ol>
+  <li>Ouvre le <code>.dmg</code> et glisse <strong>Today</strong> dans Applications.</li>
+  <li>macOS affiche « Apple n'a pas pu vérifier que <em>Today</em> ne contient pas de logiciel
+      malveillant » : l'app n'est pas notarisée. Va dans <strong>Réglages Système →
+      Confidentialité et sécurité</strong>, puis <strong>Ouvrir quand même</strong>.</li>
+</ol>
+<p>À faire une seule fois : les mises à jour suivantes s'installent depuis l'app.</p>
+      ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.5/Today-release.dmg"
-        length="6532124"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.6/Today-release.dmg"
+        length="5920508"
         type="application/octet-stream"
-        sparkle:edSignature="T/74RY0LB1PulZmfgsAlmJIF4aFmIpclt8Dvo6kqtc+RV6aU0ttHfp9NlygNpLkPOGM5wRP9pIHz0Xyah++XCQ==" />
+        sparkle:edSignature="WUQwOD+8mKv58HYFnPaGaH90rVC8k9GOSjM0XkZm07rrBxpkUsWiCwMWlDQozhbucnXA8o+WjUecEfjWDUOMDg==" />
     </item>
   </channel>
 </rss>
