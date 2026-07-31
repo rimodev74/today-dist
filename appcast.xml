@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.9</title>
-      <pubDate>Fri, 31 Jul 2026 01:01:25 +0200</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+      <title>Version 0.10</title>
+      <pubDate>Sat, 01 Aug 2026 00:19:25 +0200</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,8 +20,8 @@
   p, li { line-height: 1.45; }
   ol { padding-left: 1.2em; }
 </style>
-<h2>Today 0.9</h2>
-<p>Corrections globals + intégration d'un spotlight d'ajout de tâches rapide</p>
+<h2>Today 0.10</h2>
+<p>Corrections globals + mise à jour de la logique des onglets Aujourd'hui et Tâches</p>
 <h3>Première installation</h3>
 <ol>
   <li>Ouvre le <code>.dmg</code> et glisse <strong>Today</strong> dans Applications.</li>
@@ -32,10 +32,10 @@
 <p>À faire une seule fois : les mises à jour suivantes s'installent depuis l'app.</p>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.9/Today-release.dmg"
-        length="5977099"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.10/Today-release.dmg"
+        length="6778434"
         type="application/octet-stream"
-        sparkle:edSignature="Rxx7zNtD+/FPJp6LVmCOMbnDkbu7kosxnuY6EQ+7nlv1Y8wKFVzGAJzRUMjAPalYsfOkCFU3Y9Mit4JPmPh1CQ==" />
+        sparkle:edSignature="YaNV6B9QUT2Rs7bopYgpkLOFbQg3iRK94HwKCZ6CCZg8sgHW8DXXrwwrO9ifcpbw5qnd4XU4HqIC/9Tepz1EDw==" />
     </item>
   </channel>
 </rss>
