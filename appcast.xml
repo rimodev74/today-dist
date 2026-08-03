@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.18</title>
-      <pubDate>Mon, 03 Aug 2026 10:33:53 +0200</pubDate>
-      <sparkle:version>17</sparkle:version>
-      <sparkle:shortVersionString>0.18</sparkle:shortVersionString>
+      <title>Version 0.19</title>
+      <pubDate>Tue, 04 Aug 2026 01:35:32 +0200</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -18,24 +18,16 @@
   h2 { margin: 0 0 .2em; font-size: 1.15em; }
   h3 { margin: 1.1em 0 .3em; font-size: 1em; }
   p, li { line-height: 1.45; }
-  ol { padding-left: 1.2em; }
+  ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.18</h2>
-<p>Ocrrection design</p>
-<h3>Première installation</h3>
-<ol>
-  <li>Ouvre le <code>.dmg</code> et glisse <strong>Today</strong> dans Applications.</li>
-  <li>macOS affiche « Apple n'a pas pu vérifier que <em>Today</em> ne contient pas de logiciel
-      malveillant » : l'app n'est pas notarisée. Va dans <strong>Réglages Système →
-      Confidentialité et sécurité</strong>, puis <strong>Ouvrir quand même</strong>.</li>
-</ol>
-<p>À faire une seule fois : les mises à jour suivantes s'installent depuis l'app.</p>
+<h2>Today 0.19</h2>
+<p>Modifications globals du design des projets et des animations</p>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.18/Today-release.dmg"
-        length="6318704"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.19/Today-release.dmg"
+        length="7132896"
         type="application/octet-stream"
-        sparkle:edSignature="ck44LLKu8CgEiiCHC67VDPpoA0uqpL0b87AWKA6qkMnVBRCwAe0iCTemP8c5GjO62G8NZxYRFCGRiNYGdCXMAw==" />
+        sparkle:edSignature="sl/8tzJ4dFtM256qJzggIq+R3piPtgNQYwl42rUUENFTky2yV34TzXmVSoup/Kj/zTaAdxqM6DTeITfpiPsOCg==" />
     </item>
   </channel>
 </rss>
