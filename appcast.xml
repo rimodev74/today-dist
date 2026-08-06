@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.21</title>
-      <pubDate>Thu, 06 Aug 2026 12:41:22 +0200</pubDate>
-      <sparkle:version>20</sparkle:version>
-      <sparkle:shortVersionString>0.21</sparkle:shortVersionString>
+      <title>Version 0.22</title>
+      <pubDate>Thu, 06 Aug 2026 16:40:48 +0200</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,14 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.21</h2>
-<p>Correction importantes globals dans l'app qui avait de nombreux crash + amélioration des onglets Tâches et Aujourd'hui</p>
+<h2>Today 0.22</h2>
+<p>Correction importantes de l'application avec l'ajout de glissement, la synchro des rappels et d'autres bugs qui nuisaient au bon fonctionnement de l'app</p>
+<ul>
+  <li>Pastille de provenance sur une tâche, et insertion avant les tâches cochées</li>
+  <li>Ranger une tâche en la glissant sur une liste de la barre latérale</li>
+  <li>Réparer la compilation : identifier les listes du menu Déplacer vers…</li>
+</ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.21/Today-release.dmg"
-        length="7255634"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.22/Today-release.dmg"
+        length="6539014"
         type="application/octet-stream"
-        sparkle:edSignature="s65VR+HWP4O7kTuHfr1Xlo65BZkmHdiG+7L1aaDISvwkL4kK6JKvqBVJSFFLltCpucHAhA3PX1fr0roqyBoQBw==" />
+        sparkle:edSignature="Ts7WjVSXO3q97DH08bQ5tQPrC00LPx9oLi3ftPB1fbxIfLUltwmCmQuC5F8yz2So0c4a0I1qzKGzwn2nwugOCw==" />
     </item>
   </channel>
 </rss>
