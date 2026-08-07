@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.26</title>
-      <pubDate>Fri, 07 Aug 2026 19:56:37 +0200</pubDate>
-      <sparkle:version>25</sparkle:version>
-      <sparkle:shortVersionString>0.26</sparkle:shortVersionString>
+      <title>Version 0.27</title>
+      <pubDate>Fri, 07 Aug 2026 19:58:38 +0200</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.27</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,14 +20,14 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.26</h2>
+<h2>Today 0.27</h2>
 <p>Corrections global + modification du design, écouteur sur le spotlight pour les raccourcis</p>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.26/Today-release.dmg"
-        length="7299379"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.27/Today-release.dmg"
+        length="7299189"
         type="application/octet-stream"
-        sparkle:edSignature="fS2rEPOtuNsd5rQRqb7DJS9vWSWA07aCorKLw+ghVjKKs1MNEzcZhXBsNNe+RPXO9idwYMUeT2zHrBVt7xyRCg==" />
+        sparkle:edSignature="ym8oKyfzOmY9FcQspPhA1/vnKnR418Nu9d3chQNIn6m2vHDcVGE3WTYnE5JRhZUJDGZ7i4Iw5KzsRDm2dUpsBw==" />
     </item>
   </channel>
 </rss>
