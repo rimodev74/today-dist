@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.28</title>
-      <pubDate>Sat, 08 Aug 2026 01:13:58 +0200</pubDate>
-      <sparkle:version>27</sparkle:version>
-      <sparkle:shortVersionString>0.28</sparkle:shortVersionString>
+      <title>Version 0.29</title>
+      <pubDate>Sat, 08 Aug 2026 12:48:14 +0200</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,14 +20,20 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.28</h2>
-<p>Correction global du design de certains onglets</p>
+<h2>Today 0.29</h2>
+<p>Anneau de progression : ne reste plus plein indéfiniment sur une liste au long cours</p>
+<ul>
+  <li>L'anneau d'une liste ou d'un projet ne compte plus que ce qui a été fait aujourd'hui — une liste terminée hier et déjà archivée repart vierge au lieu de plafonner près du plein.</li>
+  <li>La suppression d'une liste vide mais liée à un raccourci de saisie rapide (texte ou combinaison globale) demande maintenant confirmation, pour ne pas perdre le raccourci sans le voir.</li>
+  <li>Confirmation de suppression : protège aussi les listes liées à un raccourci</li>
+  <li>Anneau de progression : ancré sur le jour, plus sur toute la vie de la liste</li>
+</ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.28/Today-release.dmg"
-        length="7299196"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.29/Today-release.dmg"
+        length="7302387"
         type="application/octet-stream"
-        sparkle:edSignature="/NF9RcFihzpWaW3aaYB9k4vMJJwO1pO27iyhRQnhO5r1S2SzIpTev8QPGqg/zghH+aVbSH7vK67MgMzA7RPFBg==" />
+        sparkle:edSignature="eoTLruYUsmMOkv2/u9vdMOhKbURvVB3ySiFmMM4Qqd2ssWXqC3q6Zy0VKKEgRfLHp32t8N8s4NzUoGIvgRYXAw==" />
     </item>
   </channel>
 </rss>
