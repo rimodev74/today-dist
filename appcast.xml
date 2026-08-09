@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.30</title>
-      <pubDate>Sun, 09 Aug 2026 02:17:02 +0200</pubDate>
-      <sparkle:version>29</sparkle:version>
-      <sparkle:shortVersionString>0.30</sparkle:shortVersionString>
+      <title>Version 0.31</title>
+      <pubDate>Sun, 09 Aug 2026 18:00:28 +0200</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,17 +20,20 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.30</h2>
-<p>Intégration des playlists dans le pomodoro</p>
+<h2>Today 0.31</h2>
+<p>Pomodoro : un son différent par étape, au choix</p>
 <ul>
-  <li>Musique de session : le pomodoro pilote Spotify ou Musique</li>
+  <li>Démarrage, pause, début de pause et alarme se règlent maintenant séparément</li>
+  <li>Fini le son d'alarme confondu avec celui d'une autre app</li>
+  <li>Instance de dev isolée : run-dev.sh, séparée de l'app du quotidien</li>
+  <li>Pomodoro : chaque son (démarrage, pause, début de pause, alarme) devient réglable séparément</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.30/Today-release.dmg"
-        length="7360357"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.31/Today-release.dmg"
+        length="7359253"
         type="application/octet-stream"
-        sparkle:edSignature="HPWhN5WXjlLG5e6Gmbn/OehY8JMi+hVG7hfqi1DfJ9fMJMFfBrBhjPsF2Ue83JdrlOdXbtiExEM1QT/2Zc4OCA==" />
+        sparkle:edSignature="W0PO47hB6o4gDtg+K1bTqMtso/w27q36Z9O02Ap/D/pIOvQxuFEShp9o0z5bYea62pKp1uRPqEpJug7NqofyCw==" />
     </item>
   </channel>
 </rss>
