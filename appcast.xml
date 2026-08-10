@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.31</title>
-      <pubDate>Sun, 09 Aug 2026 18:00:28 +0200</pubDate>
-      <sparkle:version>30</sparkle:version>
-      <sparkle:shortVersionString>0.31</sparkle:shortVersionString>
+      <title>Version 0.32</title>
+      <pubDate>Mon, 10 Aug 2026 15:45:41 +0200</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.32</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,20 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.31</h2>
-<p>Pomodoro : un son différent par étape, au choix</p>
+<h2>Today 0.32</h2>
+<p>Correction du plantage à l'ouverture</p>
 <ul>
-  <li>Démarrage, pause, début de pause et alarme se règlent maintenant séparément</li>
-  <li>Fini le son d'alarme confondu avec celui d'une autre app</li>
-  <li>Instance de dev isolée : run-dev.sh, séparée de l'app du quotidien</li>
-  <li>Pomodoro : chaque son (démarrage, pause, début de pause, alarme) devient réglable séparément</li>
+  <li>L'app ne se ferme plus toute seule en affichant l'icône de barre de menus ou la capsule de saisie rapide</li>
+  <li>La capsule cherche désormais une vue, un dossier, une liste ou une tâche, et ⌘↩ y emmène directement</li>
+  <li>La capsule s'ouvre plus vite : son panneau n'est plus reconstruit à chaque fois</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.31/Today-release.dmg"
-        length="7359253"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.32/Today-release.dmg"
+        length="7401979"
         type="application/octet-stream"
-        sparkle:edSignature="W0PO47hB6o4gDtg+K1bTqMtso/w27q36Z9O02Ap/D/pIOvQxuFEShp9o0z5bYea62pKp1uRPqEpJug7NqofyCw==" />
+        sparkle:edSignature="3ro/q/4fGGnaBSafK9Q3G+gegq4tRJ9aAHRIMA+3sa8LwtlJBq8HmwvhSwf9mjp0qjg+Yg595TtvnBEU0kneAQ==" />
     </item>
   </channel>
 </rss>
