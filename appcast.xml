@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.32</title>
-      <pubDate>Mon, 10 Aug 2026 15:45:41 +0200</pubDate>
-      <sparkle:version>31</sparkle:version>
-      <sparkle:shortVersionString>0.32</sparkle:shortVersionString>
+      <title>Version 0.33</title>
+      <pubDate>Mon, 10 Aug 2026 21:33:42 +0200</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>0.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.32</h2>
-<p>Correction du plantage à l'ouverture</p>
+<h2>Today 0.33</h2>
+<p>Champ « Nouvelle tâche » réservé aux pans vides</p>
 <ul>
-  <li>L'app ne se ferme plus toute seule en affichant l'icône de barre de menus ou la capsule de saisie rapide</li>
-  <li>La capsule cherche désormais une vue, un dossier, une liste ou une tâche, et ⌘↩ y emmène directement</li>
-  <li>La capsule s'ouvre plus vite : son panneau n'est plus reconstruit à chaque fois</li>
+  <li>Il ne s'affiche plus que sur une liste, une section ou une journée sans tâche : le réordonnancement n'a plus une ligne fixe à enjamber par section.</li>
+  <li>Le ⊕ de la barre du bas crée directement la tâche quand aucun champ n'est affiché.</li>
+  <li>Barre de recherche resserrée de 50 pt.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.32/Today-release.dmg"
-        length="7401979"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.33/Today-release.dmg"
+        length="7588483"
         type="application/octet-stream"
-        sparkle:edSignature="3ro/q/4fGGnaBSafK9Q3G+gegq4tRJ9aAHRIMA+3sa8LwtlJBq8HmwvhSwf9mjp0qjg+Yg595TtvnBEU0kneAQ==" />
+        sparkle:edSignature="z/bwwQpheA7ddGmA7l8BC/ab7ZfcXtVB5YTMm4GjciWh4tzjWqMYvRABe0ZvdpuyuL4wGepEkjkyjarcuDGKDA==" />
     </item>
   </channel>
 </rss>
