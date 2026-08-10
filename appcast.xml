@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.33</title>
-      <pubDate>Mon, 10 Aug 2026 21:33:42 +0200</pubDate>
-      <sparkle:version>32</sparkle:version>
-      <sparkle:shortVersionString>0.33</sparkle:shortVersionString>
+      <title>Version 0.34</title>
+      <pubDate>Mon, 10 Aug 2026 22:25:09 +0200</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>0.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,20 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.33</h2>
-<p>Champ « Nouvelle tâche » réservé aux pans vides</p>
+<h2>Today 0.34</h2>
+<p>Réglage cumulatif pour l'anneau de progression</p>
 <ul>
-  <li>Il ne s'affiche plus que sur une liste, une section ou une journée sans tâche : le réordonnancement n'a plus une ligne fixe à enjamber par section.</li>
-  <li>Le ⊕ de la barre du bas crée directement la tâche quand aucun champ n'est affiché.</li>
-  <li>Barre de recherche resserrée de 50 pt.</li>
+  <li>Réglages → Tâches : bascule pour revenir au cumul de tout l'archivé plutôt que le reset quotidien</li>
+  <li>Les cartes d'un projet comblent l'aperçu avec l'archivé quand ce réglage est actif, pour ne plus laisser une liste terminée blanche</li>
+  <li>Réinitialisation quotidienne de l'anneau en option, plus l'archivé comble les cartes</li>
+  <li>Commentaires resserrés autour du champ « Nouvelle tâche » ; capsule à 770 pt</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.33/Today-release.dmg"
-        length="7588483"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.34/Today-release.dmg"
+        length="7589459"
         type="application/octet-stream"
-        sparkle:edSignature="z/bwwQpheA7ddGmA7l8BC/ab7ZfcXtVB5YTMm4GjciWh4tzjWqMYvRABe0ZvdpuyuL4wGepEkjkyjarcuDGKDA==" />
+        sparkle:edSignature="pH1H1izhxxotNCscYjgo/i69Ch2GrphuJztv5Q4iMTvURYZTr0vLHcnSr2RhEVRIhPUoV52LitliiTjHiHSUAA==" />
     </item>
   </channel>
 </rss>
