@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.36</title>
-      <pubDate>Tue, 11 Aug 2026 19:47:35 +0200</pubDate>
-      <sparkle:version>35</sparkle:version>
-      <sparkle:shortVersionString>0.36</sparkle:shortVersionString>
+      <title>Version 0.37</title>
+      <pubDate>Wed, 12 Aug 2026 01:15:43 +0200</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,21 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.36</h2>
-<p>Le repli des sous-tâches est retenu</p>
+<h2>Today 0.37</h2>
+<p>La recherche ouvre ce qu'elle montre, et ⌘N enchaîne</p>
 <ul>
-  <li>Une tâche repliée le reste au prochain lancement — ouvert par défaut.</li>
-  <li>Les événements du Calendrier s'alignent sur la colonne des cases à cocher, dans « Aujourd'hui », « Tâches » et « À venir ».</li>
-  <li>« À venir » : tâches, rappels et événements suivent enfin la même colonne.</li>
-  <li>Correction : les raccourcis visant une liste ne peuvent plus être effacés par erreur au démarrage.</li>
-  <li>Repli des sous-tâches retenu, événements sur la colonne des cases, et la revue qui allait avec</li>
+  <li>⌘↩ ouvre maintenant n'importe quelle ligne de la capsule : une tâche mène à sa liste, et les listes d'un dossier s'ouvrent au lieu de répondre par un bip.</li>
+  <li>Une tâche terminée s'affiche cochée dans la recherche, au lieu d'une case vide qui démentait son titre barré.</li>
+  <li>⌘N pose la tâche neuve juste sous celle qu'on regarde ; un ⌘N de plus garde la précédente sous le nom « Nouvelle tâche » et en ouvre une autre en dessous.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.36/Today-release.dmg"
-        length="7591219"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.37/Today-release.dmg"
+        length="7594270"
         type="application/octet-stream"
-        sparkle:edSignature="pLgcOj3Brfq3k6/4h4WAWLOPGmJRdHxbnVzJGxli/4+VAab9fF6KxBIhVMimPDhAGyLiQVJv7wahhDkwqfrFBQ==" />
+        sparkle:edSignature="w04cfj+Q5DE3725Zhz0pk7HNikSkZTiPni1EGB9Fz0+ZiCxSI4DI+0QVsZecpeAbIxpSbbZQ/pfyT+uJoalwCg==" />
     </item>
   </channel>
 </rss>
