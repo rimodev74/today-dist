@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.34</title>
-      <pubDate>Mon, 10 Aug 2026 22:25:09 +0200</pubDate>
-      <sparkle:version>33</sparkle:version>
-      <sparkle:shortVersionString>0.34</sparkle:shortVersionString>
+      <title>Version 0.35</title>
+      <pubDate>Tue, 11 Aug 2026 10:51:53 +0200</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.35</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,20 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.34</h2>
-<p>Réglage cumulatif pour l'anneau de progression</p>
+<h2>Today 0.35</h2>
+<p>Cases à cocher alignées sur le texte des en-têtes</p>
 <ul>
-  <li>Réglages → Tâches : bascule pour revenir au cumul de tout l'archivé plutôt que le reset quotidien</li>
-  <li>Les cartes d'un projet comblent l'aperçu avec l'archivé quand ce réglage est actif, pour ne plus laisser une liste terminée blanche</li>
-  <li>Réinitialisation quotidienne de l'anneau en option, plus l'archivé comble les cartes</li>
-  <li>Commentaires resserrés autour du champ « Nouvelle tâche » ; capsule à 770 pt</li>
+  <li>Deux colonnes assumées : les repères de section (pilule d'en-tête, cadre de notes, anneau de progression) restent au bord, les lignes de tâches décrochent de 10 pt — c'est ce décalage qui donne la hiérarchie.</li>
+  <li>La carte d'édition s'ouvre désormais sans faire bouger la case à cocher.</li>
+  <li>Le trou d'insertion du glisser suit la même colonne, tâche comme en-tête.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.34/Today-release.dmg"
-        length="7589459"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.35/Today-release.dmg"
+        length="7589308"
         type="application/octet-stream"
-        sparkle:edSignature="pH1H1izhxxotNCscYjgo/i69Ch2GrphuJztv5Q4iMTvURYZTr0vLHcnSr2RhEVRIhPUoV52LitliiTjHiHSUAA==" />
+        sparkle:edSignature="Uge+rz2lppW6ZIGv1PpvRaVt/xDWPNVh4d3Qr4VbNdxX/PX+sSGRu/y5KEUTHh0dQOM1liefCzAGiCivTkbyCQ==" />
     </item>
   </channel>
 </rss>
