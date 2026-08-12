@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.37</title>
-      <pubDate>Wed, 12 Aug 2026 01:15:43 +0200</pubDate>
-      <sparkle:version>36</sparkle:version>
-      <sparkle:shortVersionString>0.37</sparkle:shortVersionString>
+      <title>Version 0.38</title>
+      <pubDate>Wed, 12 Aug 2026 11:29:12 +0200</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.38</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.37</h2>
-<p>La recherche ouvre ce qu'elle montre, et ⌘N enchaîne</p>
+<h2>Today 0.38</h2>
+<p>L'onglet « Tâches » ne montre plus que ce qui est à classer</p>
 <ul>
-  <li>⌘↩ ouvre maintenant n'importe quelle ligne de la capsule : une tâche mène à sa liste, et les listes d'un dossier s'ouvrent au lieu de répondre par un bip.</li>
-  <li>Une tâche terminée s'affiche cochée dans la recherche, au lieu d'une case vide qui démentait son titre barré.</li>
-  <li>⌘N pose la tâche neuve juste sous celle qu'on regarde ; un ⌘N de plus garde la précédente sous le nom « Nouvelle tâche » et en ouvre une autre en dessous.</li>
+  <li>La boîte de réception, seule : on y note, on range ensuite. Projets, listes et événements du Calendrier quittent la page — chacun se lit déjà là où il vit.</li>
+  <li>Une tâche à classer datée du jour y reste visible, au lieu de basculer dans une section « Aujourd'hui ».</li>
+  <li>Le glisser pour réordonner reste, sur toute la page.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.37/Today-release.dmg"
-        length="7594270"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.38/Today-release.dmg"
+        length="7560870"
         type="application/octet-stream"
-        sparkle:edSignature="w04cfj+Q5DE3725Zhz0pk7HNikSkZTiPni1EGB9Fz0+ZiCxSI4DI+0QVsZecpeAbIxpSbbZQ/pfyT+uJoalwCg==" />
+        sparkle:edSignature="MLjisIHv2EGTLzSTqtIpiFs13jt2Fd1zjFNnE1sjDqJiQKBZtF1nCK7TJ5M4Urwey0NBvJL4X9UTy1orLiRRBA==" />
     </item>
   </channel>
 </rss>
