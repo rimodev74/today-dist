@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.38</title>
-      <pubDate>Wed, 12 Aug 2026 11:29:12 +0200</pubDate>
-      <sparkle:version>37</sparkle:version>
-      <sparkle:shortVersionString>0.38</sparkle:shortVersionString>
+      <title>Version 0.39</title>
+      <pubDate>Thu, 13 Aug 2026 14:48:34 +0200</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.39</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,18 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.38</h2>
-<p>L'onglet « Tâches » ne montre plus que ce qui est à classer</p>
+<h2>Today 0.39</h2>
+<p>⌘↩ ouvre enfin la bonne page, même quand la fenêtre était fermée</p>
 <ul>
-  <li>La boîte de réception, seule : on y note, on range ensuite. Projets, listes et événements du Calendrier quittent la page — chacun se lit déjà là où il vit.</li>
-  <li>Une tâche à classer datée du jour y reste visible, au lieu de basculer dans une section « Aujourd'hui ».</li>
-  <li>Le glisser pour réordonner reste, sur toute la page.</li>
+  <li>Depuis la capsule de saisie rapide, ⌘↩ sur une liste, un projet ou une tâche ramenait Today sur « Aujourd'hui » au lieu de l'endroit visé. Ça n'arrivait que si la fenêtre principale avait été fermée au bouton rouge : elle se recréait plus vite que la destination ne lui parvenait. Elle s'ouvre maintenant là où on l'a demandé.</li>
+  <li>Même correction pour les raccourcis texte de navigation (!today, !all, !upcoming, !archive) : eux aussi retombaient sur la page par défaut, fenêtre fermée.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.38/Today-release.dmg"
-        length="7560870"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.39/Today-release.dmg"
+        length="7560586"
         type="application/octet-stream"
-        sparkle:edSignature="MLjisIHv2EGTLzSTqtIpiFs13jt2Fd1zjFNnE1sjDqJiQKBZtF1nCK7TJ5M4Urwey0NBvJL4X9UTy1orLiRRBA==" />
+        sparkle:edSignature="qzd16/Ba7J1jCRhSt0J9yfcWlBE1KdUFIaqMAA52uBl57bsOYmiEMf8tpxTynnv+3DKAV1cZ464w1NaaB+/TDA==" />
     </item>
   </channel>
 </rss>
