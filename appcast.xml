@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.41</title>
-      <pubDate>Sat, 22 Aug 2026 18:45:10 +0200</pubDate>
-      <sparkle:version>40</sparkle:version>
-      <sparkle:shortVersionString>0.41</sparkle:shortVersionString>
+      <title>Version 0.42</title>
+      <pubDate>Sat, 22 Aug 2026 19:59:28 +0200</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>0.42</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,20 +20,18 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.41</h2>
-<p>La capsule de saisie rapide s'ouvre là où on la cherche</p>
+<h2>Today 0.42</h2>
+<p>Le texte collé dans une note prend enfin la mise en forme de la note</p>
 <ul>
-  <li>Elle paraît au centre de l'écran, dans les deux sens, au lieu d'une position qui dérivait toute seule au fil des branchements d'écran.</li>
-  <li>Sur deux écrans, elle s'ouvre sur celui où l'on travaille — pas là où traîne la souris.</li>
-  <li>On la déplace en l'attrapant par les bords de la barre, et elle reste où on l'a posée.</li>
-  <li>⌘ maintenu pendant le déplacement la recolle au centre : en largeur, en hauteur, ou les deux.</li>
+  <li>Coller depuis un site, un mail ou un document n'emporte plus la police, la couleur ni la taille d'origine : le texte s'aligne sur celui qui l'entoure.</li>
+  <li>Les images qui accompagnaient le texte copié ne s'invitent plus dans la note — elles y laissaient un « [Image] » à la place du texte attendu.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.41/Today-release.dmg"
-        length="7570647"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.42/Today-release.dmg"
+        length="7571458"
         type="application/octet-stream"
-        sparkle:edSignature="8YcPPkWTcpPTkGT13yl/bO8wHjnTS0BSYbyzQYlpheGFIDk8XP7pZYtVTT15ZbBTR0RhCndhyfUXg2qFfm0ZAA==" />
+        sparkle:edSignature="/fXxJ+dMPJcgYk9/UkcT4EbyJgQsDTm+zCS6trU3BYH0pyyOfiiLCUE9GS3lnj6+Yt0qsJRLBxEIZsErvU6GBQ==" />
     </item>
   </channel>
 </rss>
