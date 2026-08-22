@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.39</title>
-      <pubDate>Thu, 13 Aug 2026 14:48:34 +0200</pubDate>
-      <sparkle:version>38</sparkle:version>
-      <sparkle:shortVersionString>0.39</sparkle:shortVersionString>
+      <title>Version 0.40</title>
+      <pubDate>Sat, 22 Aug 2026 12:17:46 +0200</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>0.40</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,18 +20,20 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.39</h2>
-<p>⌘↩ ouvre enfin la bonne page, même quand la fenêtre était fermée</p>
+<h2>Today 0.40</h2>
+<p>La capsule de saisie rapide s'ouvre sans traîner</p>
 <ul>
-  <li>Depuis la capsule de saisie rapide, ⌘↩ sur une liste, un projet ou une tâche ramenait Today sur « Aujourd'hui » au lieu de l'endroit visé. Ça n'arrivait que si la fenêtre principale avait été fermée au bouton rouge : elle se recréait plus vite que la destination ne lui parvenait. Elle s'ouvre maintenant là où on l'a demandé.</li>
-  <li>Même correction pour les raccourcis texte de navigation (!today, !all, !upcoming, !archive) : eux aussi retombaient sur la page par défaut, fenêtre fermée.</li>
+  <li>- Elle paraissait avec un temps de retard, puis son animation saccadait dès qu'autre chose tournait — une vidéo derrière, un téléchargement. Elle s'ouvre maintenant du tac au tac, et le rebond reste fluide.</li>
+  <li>- La recherche de la capsule répond plus vite sous les doigts.</li>
+  <li>- ⌘↩ depuis la capsule pouvait ramener « Aujourd'hui » au lieu de l'endroit visé, une fois la fenêtre principale fermée puis rouverte. Il ouvre à nouveau la bonne page.</li>
+  <li>- Les listes chargées, le tableau d'un projet et les palettes de recherche demandent moins de travail à chaque image.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.39/Today-release.dmg"
-        length="7560586"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.40/Today-release.dmg"
+        length="7561239"
         type="application/octet-stream"
-        sparkle:edSignature="qzd16/Ba7J1jCRhSt0J9yfcWlBE1KdUFIaqMAA52uBl57bsOYmiEMf8tpxTynnv+3DKAV1cZ464w1NaaB+/TDA==" />
+        sparkle:edSignature="iJz/m6DP4fVpios/wUU9doLbhy1Tcq75GmXUfjpq0JN6XMf1brZpMme0IBg8ADF/tbL/Zg7N+Ymr4k7sq8cyAw==" />
     </item>
   </channel>
 </rss>
