@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.42</title>
-      <pubDate>Sat, 22 Aug 2026 19:59:28 +0200</pubDate>
-      <sparkle:version>41</sparkle:version>
-      <sparkle:shortVersionString>0.42</sparkle:shortVersionString>
+      <title>Version 0.43</title>
+      <pubDate>Sat, 22 Aug 2026 22:10:16 +0200</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>0.43</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,18 +20,21 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.42</h2>
-<p>Le texte collé dans une note prend enfin la mise en forme de la note</p>
+<h2>Today 0.43</h2>
+<p>Une tâche peut maintenant partir avec son heure, depuis la capsule</p>
 <ul>
-  <li>Coller depuis un site, un mail ou un document n'emporte plus la police, la couleur ni la taille d'origine : le texte s'aligne sur celui qui l'entoure.</li>
-  <li>Les images qui accompagnaient le texte copié ne s'invitent plus dans la note — elles y laissaient un « [Image] » à la place du texte attendu.</li>
+  <li>@14h30 s'écrit à côté de @demain, dans l'ordre qu'on veut : la tâche part datée et à l'heure. Une heure seule vise aujourd'hui.</li>
+  <li>Les formats courants passent — 14h, 14h30, 14:30, 9h05. Ce qui n'est pas une heure reste dans le titre, comme avant.</li>
+  <li>Le rappel Apple correspondant part à l'heure dite, plus à l'heure par défaut.</li>
+  <li>Même chose dans le champ « Nouvelle tâche » d'une liste : le jeton y marche pareil.</li>
+  <li>La barre latérale n'affiche plus de barre de défilement.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.42/Today-release.dmg"
-        length="7571458"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.43/Today-release.dmg"
+        length="7574693"
         type="application/octet-stream"
-        sparkle:edSignature="/fXxJ+dMPJcgYk9/UkcT4EbyJgQsDTm+zCS6trU3BYH0pyyOfiiLCUE9GS3lnj6+Yt0qsJRLBxEIZsErvU6GBQ==" />
+        sparkle:edSignature="WyakyjHHFkD+p/3MM1xiGfUcTXycS/Fy0vdpcljIAs9ouMnUxxTNWI1zhEksQDwCuaMoUksHyzaP7O+TYijyBQ==" />
     </item>
   </channel>
 </rss>
