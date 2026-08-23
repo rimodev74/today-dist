@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.43</title>
-      <pubDate>Sat, 22 Aug 2026 22:10:16 +0200</pubDate>
-      <sparkle:version>42</sparkle:version>
-      <sparkle:shortVersionString>0.43</sparkle:shortVersionString>
+      <title>Version 0.44</title>
+      <pubDate>Sun, 23 Aug 2026 12:23:17 +0200</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>0.44</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,21 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.43</h2>
-<p>Une tâche peut maintenant partir avec son heure, depuis la capsule</p>
+<h2>Today 0.44</h2>
+<p>Le pomodoro annonce la fin de chaque étape, comme vous voulez</p>
 <ul>
-  <li>@14h30 s'écrit à côté de @demain, dans l'ordre qu'on veut : la tâche part datée et à l'heure. Une heure seule vise aujourd'hui.</li>
-  <li>Les formats courants passent — 14h, 14h30, 14:30, 9h05. Ce qui n'est pas une heure reste dans le titre, comme avant.</li>
-  <li>Le rappel Apple correspondant part à l'heure dite, plus à l'heure par défaut.</li>
-  <li>Même chose dans le champ « Nouvelle tâche » d'une liste : le jeton y marche pareil.</li>
-  <li>La barre latérale n'affiche plus de barre de défilement.</li>
+  <li>Réglages ▸ Pomodoro ▸ « Fin d'étape » : rien, une pastille en bas de l'écran, ou un écran plein. L'écran plein n'apparaît qu'à la fin d'un travail : il annonce la pause qui vient et son temps, et il attend — ⏎ la lance, Échap ferme. Il suspend l'enchaînement automatique, c'est son bouton qui ouvre la pause. Sans réponse, il s'efface seul au bout de 30 secondes, sans rien lancer.</li>
+  <li>Dans la capsule, « pomodoro » — ou « pause », ou « reprendre » — propose désormais en tête la phase qui attend : « Reprendre : Pause courte · 05:00 ». Une ligne, ⏎, la pause part.</li>
+  <li>L'option « Échéance » d'une tâche est retirée : le drapeau à droite de la ligne, son panneau et son entrée de menu. Les échéances déjà posées restent en base, elles ne sont plus affichées.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.43/Today-release.dmg"
-        length="7574693"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.44/Today-release.dmg"
+        length="7426009"
         type="application/octet-stream"
-        sparkle:edSignature="WyakyjHHFkD+p/3MM1xiGfUcTXycS/Fy0vdpcljIAs9ouMnUxxTNWI1zhEksQDwCuaMoUksHyzaP7O+TYijyBQ==" />
+        sparkle:edSignature="xCqcd/+agACpcBgl3/ktVB/b8mmuirWWfgWTzTm+l3ffuOavLT/o43Tm23q61RojCQjtrSJ8QjLSCTUqojvoDQ==" />
     </item>
   </channel>
 </rss>
