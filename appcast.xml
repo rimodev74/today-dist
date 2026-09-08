@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.45</title>
-      <pubDate>Fri, 04 Sep 2026 09:33:51 +0200</pubDate>
-      <sparkle:version>44</sparkle:version>
-      <sparkle:shortVersionString>0.45</sparkle:shortVersionString>
+      <title>Version 0.46</title>
+      <pubDate>Tue, 08 Sep 2026 12:11:59 +0200</pubDate>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>0.46</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,22 +20,22 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.45</h2>
-<p>Une tâche à laquelle vous donnez une durée prend sa place dans votre agenda</p>
+<h2>Today 0.46</h2>
+<p>Vos créneaux ne reviennent plus en arrière : Calendrier et Today se répondent enfin dans les deux sens</p>
 <ul>
-  <li>Réglages ▸ Tâches ▸ Rappels Apple : choisissez le « Calendrier des tâches avec durée ». Dès qu'une tâche DATÉE reçoit une durée (clic droit ▸ Durée…), elle quitte Rappels et devient un ÉVÉNEMENT dans ce calendrier, à son heure, pour le temps annoncé. Un rappel sonne, un événement prend de la place : c'est la différence que la durée demandait.</li>
-  <li>Retirez la durée — ou la date — et l'événement disparaît : la tâche redevient un rappel. La cocher, en revanche, ne l'efface pas : un créneau passé raconte votre journée.</li>
-  <li>Une durée posée sur une tâche SANS date ne va nulle part. C'est la date qui déclenche.</li>
-  <li>Tant qu'aucun calendrier n'est choisi, rien ne change : tout continue de partir dans Rappels.</li>
-  <li>Les événements créés par l'app ne s'affichent plus en double sur « Aujourd'hui » et « À venir ».</li>
-  <li>L'app a enfin une barre de menus : Fichier, Aller, Pomodoro, Rechercher… ⌘F et Masquer la barre latérale ⌘B. ⌘N et ⌘⇧N y sont annoncés, et se grisent sur une page qui ne crée rien. Les menus du système passent en français, et les entrées d'onglets disparaissent — l'app n'a qu'une seule fenêtre.</li>
+  <li>Déplacez un événement dans Calendrier, changez son heure ou sa durée : la tâche suit. Jusqu'ici c'était l'app qui gagnait — le créneau revenait à sa place dans la seconde, et modifier un rendez-vous dans Calendrier ne servait à rien.</li>
+  <li>Même chose côté Rappels : une échéance changée là-bas devient la date, et l'heure, de la tâche.</li>
+  <li>Un événement déplacé de plusieurs semaines n'est plus ramené au jour de sa tâche — il n'était pas relu assez loin, donc il était réécrit.</li>
+  <li>Le sens Today → Apple ne change pas. Si les deux côtés bougent entre deux synchros, c'est Apple qui l'emporte.</li>
+  <li>Réglages ▸ Tâches : le « Calendrier des tâches avec durée » est désormais un réglage à lui seul, il ne se cache plus sous la bascule des rappels — il fallait trois réglages justes pour qu'une durée devienne un événement, il n'en faut plus qu'un.</li>
+  <li>Le menu « Durée… » d'une tâche annonce en tête s'il synchronise, et avec quel calendrier. Quand aucun n'est choisi, il propose d'aller le choisir — et les Réglages s'ouvrent directement sur le bon onglet.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.45/Today-release.dmg"
-        length="7643243"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.46/Today-release.dmg"
+        length="7658053"
         type="application/octet-stream"
-        sparkle:edSignature="KwyNJShB42ixSnF0XqUNKFeyOj2FAo+K4bO+bk3Cz8e1jsbyNOr7cw9i3OeOeXA3blYrGp8joZXekTYvX3vtAQ==" />
+        sparkle:edSignature="q1fyKots3CuqhTs7yA1piDPeN2b6uMcJVqo6epsxW7DmfFNUXE62Ril9o9APD9hXOlRIXRx6Vl1JmfmZpVpDDQ==" />
     </item>
   </channel>
 </rss>
