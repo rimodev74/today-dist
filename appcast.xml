@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.46</title>
-      <pubDate>Tue, 08 Sep 2026 12:11:59 +0200</pubDate>
-      <sparkle:version>45</sparkle:version>
-      <sparkle:shortVersionString>0.46</sparkle:shortVersionString>
+      <title>Version 0.47</title>
+      <pubDate>Wed, 09 Sep 2026 20:36:14 +0200</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>0.47</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,22 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.46</h2>
-<p>Vos créneaux ne reviennent plus en arrière : Calendrier et Today se répondent enfin dans les deux sens</p>
+<h2>Today 0.47</h2>
+<p>⌘N crée enfin la tâche sur la page que vous regardez</p>
 <ul>
-  <li>Déplacez un événement dans Calendrier, changez son heure ou sa durée : la tâche suit. Jusqu'ici c'était l'app qui gagnait — le créneau revenait à sa place dans la seconde, et modifier un rendez-vous dans Calendrier ne servait à rien.</li>
-  <li>Même chose côté Rappels : une échéance changée là-bas devient la date, et l'heure, de la tâche.</li>
-  <li>Un événement déplacé de plusieurs semaines n'est plus ramené au jour de sa tâche — il n'était pas relu assez loin, donc il était réécrit.</li>
-  <li>Le sens Today → Apple ne change pas. Si les deux côtés bougent entre deux synchros, c'est Apple qui l'emporte.</li>
-  <li>Réglages ▸ Tâches : le « Calendrier des tâches avec durée » est désormais un réglage à lui seul, il ne se cache plus sous la bascule des rappels — il fallait trois réglages justes pour qu'une durée devienne un événement, il n'en faut plus qu'un.</li>
-  <li>Le menu « Durée… » d'une tâche annonce en tête s'il synchronise, et avec quel calendrier. Quand aucun n'est choisi, il propose d'aller le choisir — et les Réglages s'ouvrent directement sur le bon onglet.</li>
+  <li>Depuis l'arrivée de la barre de menus, ⌘N ne faisait rien de visible : la tâche partait sur la première page ouverte depuis le lancement — souvent « Tâches », où elles s'entassaient vides. Sur « Aujourd'hui », dans une liste, dans un projet, rien n'apparaissait.</li>
+  <li>⌘N ouvre maintenant la nouvelle tâche là où vous êtes. Sur une page qui ne crée rien — un projet, « À venir », « Archives » — l'entrée reste grisée et la touche ne fait rien.</li>
+  <li>Même correction pour ⌘⇧N (nouvel en-tête), qui visait la première liste ouverte, et ⌘⌥N (nouvelle to-do list), qui visait le premier projet visité.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.46/Today-release.dmg"
-        length="7658053"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.47/Today-release.dmg"
+        length="7659191"
         type="application/octet-stream"
-        sparkle:edSignature="q1fyKots3CuqhTs7yA1piDPeN2b6uMcJVqo6epsxW7DmfFNUXE62Ril9o9APD9hXOlRIXRx6Vl1JmfmZpVpDDQ==" />
+        sparkle:edSignature="UmuK2BlNTkBqohyCqiZEEmVYQHyXu0YkiTwoFkiSJCAkut3MmGxk4bSSeMPj/LQtywPL1ZjJnmt8r8hRPHNfAg==" />
     </item>
   </channel>
 </rss>
