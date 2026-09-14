@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.48</title>
-      <pubDate>Tue, 15 Sep 2026 00:23:41 +0200</pubDate>
-      <sparkle:version>47</sparkle:version>
-      <sparkle:shortVersionString>0.48</sparkle:shortVersionString>
+      <title>Version 0.49</title>
+      <pubDate>Tue, 15 Sep 2026 00:51:38 +0200</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.49</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,26 +20,18 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.48</h2>
-<p>Un nouveau look en verre, et vos rappels gardent enfin leur titre complet</p>
+<h2>Today 0.49</h2>
+<p>Les listes d'un projet font leur entrée</p>
 <ul>
-  <li>Un rappel créé pendant que vous tapiez gardait un titre coupé : « Inves » au lieu de « Investir dans les ETF ». Le titre complet le rejoint maintenant, et les rappels déjà coupés sont réparés à la prochaine synchronisation.</li>
-  <li>Renommer un rappel dans l'app Rappels renomme aussi sa tâche.</li>
-  <li>La fenêtre passe au verre : le bureau apparaît, flouté, derrière la barre latérale et la page.</li>
-  <li>Chaque page a sa couleur : ardoise pour Tâches, orange pour Aujourd'hui, violet pour À venir, vert pour Archives. On la retrouve sur l'icône de la page, sur ses cases à cocher et sur ses dates.</li>
-  <li>Aujourd'hui prend un soleil, et Tâches un bac de réception.</li>
-  <li>La date d'une tâche passe à droite de la ligne, où les dates s'alignent en colonne.</li>
-  <li>La ligne sélectionnée passe en gris neutre. Dans la barre latérale, une ligne survolée ne ressemble plus à la ligne sélectionnée.</li>
-  <li>La case redevient carrée, et la page tire vers le blanc</li>
-  <li>Plus de bande de bureau entre les deux colonnes</li>
-  <li>Refonte v2 : le verre, une couleur par page, et la fin des repères de Things</li>
+  <li>La première fois que vous ouvrez un projet, ses listes apparaissent l'une après l'autre avec un petit rebond, au lieu de surgir d'un coup.</li>
+  <li>Si vous revenez sur ce projet plus tard, tout s'affiche immédiatement.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.48/Today-release.dmg"
-        length="7520126"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.49/Today-release.dmg"
+        length="7545866"
         type="application/octet-stream"
-        sparkle:edSignature="ZcxM91a3PrWgWKrdo4OcTd4YJdF1sTtbmxbv6YDWI/u/DzppESdaE02V3dvPBttke/Xe+ejeKu8Dn0S82fdTAQ==" />
+        sparkle:edSignature="4XfIcposh6jlQi8p5ivD2fe6Yf3zS1GDc4vTL6V2XxCb8Wq4IuoX76GipR7z9Pwk27IJb2JvTjKw7pgWJYGvBQ==" />
     </item>
   </channel>
 </rss>
