@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.47</title>
-      <pubDate>Wed, 09 Sep 2026 20:36:14 +0200</pubDate>
-      <sparkle:version>46</sparkle:version>
-      <sparkle:shortVersionString>0.47</sparkle:shortVersionString>
+      <title>Version 0.48</title>
+      <pubDate>Tue, 15 Sep 2026 00:23:41 +0200</pubDate>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>0.48</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,26 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.47</h2>
-<p>⌘N crée enfin la tâche sur la page que vous regardez</p>
+<h2>Today 0.48</h2>
+<p>Un nouveau look en verre, et vos rappels gardent enfin leur titre complet</p>
 <ul>
-  <li>Depuis l'arrivée de la barre de menus, ⌘N ne faisait rien de visible : la tâche partait sur la première page ouverte depuis le lancement — souvent « Tâches », où elles s'entassaient vides. Sur « Aujourd'hui », dans une liste, dans un projet, rien n'apparaissait.</li>
-  <li>⌘N ouvre maintenant la nouvelle tâche là où vous êtes. Sur une page qui ne crée rien — un projet, « À venir », « Archives » — l'entrée reste grisée et la touche ne fait rien.</li>
-  <li>Même correction pour ⌘⇧N (nouvel en-tête), qui visait la première liste ouverte, et ⌘⌥N (nouvelle to-do list), qui visait le premier projet visité.</li>
+  <li>Un rappel créé pendant que vous tapiez gardait un titre coupé : « Inves » au lieu de « Investir dans les ETF ». Le titre complet le rejoint maintenant, et les rappels déjà coupés sont réparés à la prochaine synchronisation.</li>
+  <li>Renommer un rappel dans l'app Rappels renomme aussi sa tâche.</li>
+  <li>La fenêtre passe au verre : le bureau apparaît, flouté, derrière la barre latérale et la page.</li>
+  <li>Chaque page a sa couleur : ardoise pour Tâches, orange pour Aujourd'hui, violet pour À venir, vert pour Archives. On la retrouve sur l'icône de la page, sur ses cases à cocher et sur ses dates.</li>
+  <li>Aujourd'hui prend un soleil, et Tâches un bac de réception.</li>
+  <li>La date d'une tâche passe à droite de la ligne, où les dates s'alignent en colonne.</li>
+  <li>La ligne sélectionnée passe en gris neutre. Dans la barre latérale, une ligne survolée ne ressemble plus à la ligne sélectionnée.</li>
+  <li>La case redevient carrée, et la page tire vers le blanc</li>
+  <li>Plus de bande de bureau entre les deux colonnes</li>
+  <li>Refonte v2 : le verre, une couleur par page, et la fin des repères de Things</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.47/Today-release.dmg"
-        length="7659191"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.48/Today-release.dmg"
+        length="7520126"
         type="application/octet-stream"
-        sparkle:edSignature="UmuK2BlNTkBqohyCqiZEEmVYQHyXu0YkiTwoFkiSJCAkut3MmGxk4bSSeMPj/LQtywPL1ZjJnmt8r8hRPHNfAg==" />
+        sparkle:edSignature="ZcxM91a3PrWgWKrdo4OcTd4YJdF1sTtbmxbv6YDWI/u/DzppESdaE02V3dvPBttke/Xe+ejeKu8Dn0S82fdTAQ==" />
     </item>
   </channel>
 </rss>
