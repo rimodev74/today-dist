@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.49</title>
-      <pubDate>Tue, 15 Sep 2026 00:51:38 +0200</pubDate>
-      <sparkle:version>48</sparkle:version>
-      <sparkle:shortVersionString>0.49</sparkle:shortVersionString>
+      <title>Version 0.50</title>
+      <pubDate>Wed, 16 Sep 2026 13:34:53 +0200</pubDate>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>0.50</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,18 +20,24 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.49</h2>
-<p>Les listes d'un projet font leur entrée</p>
+<h2>Today 0.50</h2>
+<p>Rangez les listes terminées dans les archives de leur projet</p>
 <ul>
-  <li>La première fois que vous ouvrez un projet, ses listes apparaissent l'une après l'autre avec un petit rebond, au lieu de surgir d'un coup.</li>
-  <li>Si vous revenez sur ce projet plus tard, tout s'affiche immédiatement.</li>
+  <li>- Une liste dont tout est fait peut désormais être archivée : clic droit sur son nom dans la barre latérale, ou le menu ••• de sa carte. Elle quitte la barre latérale et la grille du projet sans rien perdre — ses tâches restent.</li>
+  <li>- On la retrouve sous « 1 liste archivée », replié en bas de la page du projet. « Désarchiver » la remet en fin de projet.</li>
+  <li>- Une liste archivée n'est plus proposée quand vous rangez une tâche ni dans les destinations de la capsule, mais elle répond toujours à son nom (#Courses) et à vos raccourcis.</li>
+  <li>- Les cartes d'un projet refont leur entrée à chaque ouverture, et plus seulement la première fois de la journée.</li>
+  <li>- Les sous-tâches prennent enfin la couleur de leur page : la coche et l'anneau de progression passent à l'orange d'Aujourd'hui ou à l'ardoise de Tâches, au lieu du bleu du système.</li>
+  <li>- Ajouter une sous-tâche avec Entrée ne fait plus clignoter la ligne précédente en surbrillance.</li>
+  <li>Accueil du premier lancement, et le thème suit enfin le système</li>
+  <li>Retire landing-page, embarqué par erreur</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.49/Today-release.dmg"
-        length="7545866"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.50/Today-release.dmg"
+        length="7780936"
         type="application/octet-stream"
-        sparkle:edSignature="4XfIcposh6jlQi8p5ivD2fe6Yf3zS1GDc4vTL6V2XxCb8Wq4IuoX76GipR7z9Pwk27IJb2JvTjKw7pgWJYGvBQ==" />
+        sparkle:edSignature="KyqBCFpDVcGtrrP7qsQ3xVCCVx1U8l2Gqb8iJtoaAbxD9gmZZfVXWcUwMgxCcC4zG2OM2Ba5LdMcTav/KbaxCA==" />
     </item>
   </channel>
 </rss>
