@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.51</title>
-      <pubDate>Thu, 17 Sep 2026 16:37:07 +0200</pubDate>
-      <sparkle:version>50</sparkle:version>
-      <sparkle:shortVersionString>0.51</sparkle:shortVersionString>
+      <title>Version 0.52</title>
+      <pubDate>Thu, 17 Sep 2026 18:54:53 +0200</pubDate>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>0.52</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,18 +20,20 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.51</h2>
-<p>Vos tâches cochées restent sous vos yeux, et la coche s'efface proprement</p>
+<h2>Today 0.52</h2>
+<p>Ajoutez une sous-tâche sans ouvrir la tâche</p>
 <ul>
-  <li>Dans « Tâches », une tâche que vous cochez reste affichée, barrée, au lieu de disparaître à l'instant du clic. Elle s'en va quand vous l'avez décidé dans Réglages ▸ Tâches ▸ Conserver — le lendemain, par défaut —, exactement comme dans vos listes.</li>
-  <li>En décochant une tâche, un léger trait blanc restait un instant sur la ligne avant de sauter. Il a disparu.</li>
+  <li>- Au survol d'une tâche, une icône de checklist apparaît à côté du calendrier : un clic ouvre la tâche avec une sous-tâche vide, prête à taper. Avant, il fallait double-cliquer la tâche puis retrouver l'icône dans la carte.</li>
+  <li>- Cette icône a disparu de la carte ouverte : elle faisait doublon avec celle du survol, et chaque clic de plus y ajoutait une sous-tâche vide. Une sous-tâche s'enchaîne toujours avec Entrée depuis la précédente.</li>
+  <li>- Les icônes de date et de priorité se posent maintenant tout en bas de la carte, sous les sous-tâches, au lieu de flotter entre la note et elles.</li>
+  <li>Ajoutez une sous-tâche sans ouvrir la tâche</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.51/Today-release.dmg"
-        length="8559515"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.52/Today-release.dmg"
+        length="7906220"
         type="application/octet-stream"
-        sparkle:edSignature="ohTIolnjwdx3otfmJypSA3eri3S3hH1MQJlfWLsJgPJfbtgkCun3LYSPJrg0t1gwcI3EUfDvEE6Ig8cJRKGOCA==" />
+        sparkle:edSignature="X3ZXq99+UyRBANhoF2RL6nuIwgfoGb8hUQblT05jV6mcuvsb+yEcEL5KzlPL0hj5MSnw32fM7hhQOFwB4YqACg==" />
     </item>
   </channel>
 </rss>
