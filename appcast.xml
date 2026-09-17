@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.50</title>
-      <pubDate>Wed, 16 Sep 2026 13:34:53 +0200</pubDate>
-      <sparkle:version>49</sparkle:version>
-      <sparkle:shortVersionString>0.50</sparkle:shortVersionString>
+      <title>Version 0.51</title>
+      <pubDate>Thu, 17 Sep 2026 16:37:07 +0200</pubDate>
+      <sparkle:version>50</sparkle:version>
+      <sparkle:shortVersionString>0.51</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,24 +20,18 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.50</h2>
-<p>Rangez les listes terminées dans les archives de leur projet</p>
+<h2>Today 0.51</h2>
+<p>Vos tâches cochées restent sous vos yeux, et la coche s'efface proprement</p>
 <ul>
-  <li>- Une liste dont tout est fait peut désormais être archivée : clic droit sur son nom dans la barre latérale, ou le menu ••• de sa carte. Elle quitte la barre latérale et la grille du projet sans rien perdre — ses tâches restent.</li>
-  <li>- On la retrouve sous « 1 liste archivée », replié en bas de la page du projet. « Désarchiver » la remet en fin de projet.</li>
-  <li>- Une liste archivée n'est plus proposée quand vous rangez une tâche ni dans les destinations de la capsule, mais elle répond toujours à son nom (#Courses) et à vos raccourcis.</li>
-  <li>- Les cartes d'un projet refont leur entrée à chaque ouverture, et plus seulement la première fois de la journée.</li>
-  <li>- Les sous-tâches prennent enfin la couleur de leur page : la coche et l'anneau de progression passent à l'orange d'Aujourd'hui ou à l'ardoise de Tâches, au lieu du bleu du système.</li>
-  <li>- Ajouter une sous-tâche avec Entrée ne fait plus clignoter la ligne précédente en surbrillance.</li>
-  <li>Accueil du premier lancement, et le thème suit enfin le système</li>
-  <li>Retire landing-page, embarqué par erreur</li>
+  <li>Dans « Tâches », une tâche que vous cochez reste affichée, barrée, au lieu de disparaître à l'instant du clic. Elle s'en va quand vous l'avez décidé dans Réglages ▸ Tâches ▸ Conserver — le lendemain, par défaut —, exactement comme dans vos listes.</li>
+  <li>En décochant une tâche, un léger trait blanc restait un instant sur la ligne avant de sauter. Il a disparu.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.50/Today-release.dmg"
-        length="7780936"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.51/Today-release.dmg"
+        length="8559515"
         type="application/octet-stream"
-        sparkle:edSignature="KyqBCFpDVcGtrrP7qsQ3xVCCVx1U8l2Gqb8iJtoaAbxD9gmZZfVXWcUwMgxCcC4zG2OM2Ba5LdMcTav/KbaxCA==" />
+        sparkle:edSignature="ohTIolnjwdx3otfmJypSA3eri3S3hH1MQJlfWLsJgPJfbtgkCun3LYSPJrg0t1gwcI3EUfDvEE6Ig8cJRKGOCA==" />
     </item>
   </channel>
 </rss>
