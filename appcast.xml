@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.53</title>
-      <pubDate>Fri, 18 Sep 2026 10:36:26 +0200</pubDate>
-      <sparkle:version>52</sparkle:version>
-      <sparkle:shortVersionString>0.53</sparkle:shortVersionString>
+      <title>Version 0.54</title>
+      <pubDate>Fri, 18 Sep 2026 12:34:02 +0200</pubDate>
+      <sparkle:version>53</sparkle:version>
+      <sparkle:shortVersionString>0.54</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,17 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.53</h2>
-<p>La coche d'une sous-tâche rebondit sous le clic</p>
+<h2>Today 0.54</h2>
+<p>Moins de travail en coulisse, pour vous laisser taper tranquille</p>
 <ul>
-  <li>- En cochant une sous-tâche, sa case se creuse puis rebondit, exactement comme celle d'une tâche. C'était la seule case de l'app qui restait inerte sous le doigt.</li>
+  <li>- Choisir où ranger une tâche depuis la capsule ne recalcule plus la progression de chacune de vos listes à chaque passage de souris. La liste des destinations reste aussi vive à vingt listes qu'à trois.</li>
+  <li>- Si vous avez des tâches datées loin dans le futur, la synchronisation avec Calendrier interrogeait votre agenda sur toute la période qui vous en sépare — et le faisait à chaque enregistrement, donc pendant que vous écriviez. Elle ne regarde plus que les créneaux réellement liés à une tâche.</li>
+  <li>- L'icône « sous-tâche » du survol pouvait laisser une sous-tâche vide s'ouvrir la fois suivante où vous ouvriez cette tâche. Elle ne le fait plus.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.53/Today-release.dmg"
-        length="7905987"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.54/Today-release.dmg"
+        length="7906149"
         type="application/octet-stream"
-        sparkle:edSignature="JdExKfQ37FRI01eTJvCbc2Sygd3tIj54vWcIYaksGS76XgRNOv7BEHGy3v6wK9B+QrcFGd7FvHPHCMuVCREBAA==" />
+        sparkle:edSignature="xLQjwW+m+YuxoSvw6JGnU9zHTaBBcwnfcy1BDAbaWYM7mPqBfHz3/1P8Lr9XK2vlT+gy09mj0cp45sO3B1mwBw==" />
     </item>
   </channel>
 </rss>
