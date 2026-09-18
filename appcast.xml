@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.54</title>
-      <pubDate>Fri, 18 Sep 2026 12:34:02 +0200</pubDate>
-      <sparkle:version>53</sparkle:version>
-      <sparkle:shortVersionString>0.54</sparkle:shortVersionString>
+      <title>Version 0.55</title>
+      <pubDate>Fri, 18 Sep 2026 14:49:50 +0200</pubDate>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>0.55</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,17 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.54</h2>
-<p>Moins de travail en coulisse, pour vous laisser taper tranquille</p>
+<h2>Today 0.55</h2>
+<p>Vos dates s'alignent enfin sur une seule colonne</p>
 <ul>
-  <li>- Choisir où ranger une tâche depuis la capsule ne recalcule plus la progression de chacune de vos listes à chaque passage de souris. La liste des destinations reste aussi vive à vingt listes qu'à trois.</li>
-  <li>- Si vous avez des tâches datées loin dans le futur, la synchronisation avec Calendrier interrogeait votre agenda sur toute la période qui vous en sépare — et le faisait à chaque enregistrement, donc pendant que vous écriviez. Elle ne regarde plus que les créneaux réellement liés à une tâche.</li>
-  <li>- L'icône « sous-tâche » du survol pouvait laisser une sous-tâche vide s'ouvrir la fois suivante où vous ouvriez cette tâche. Elle ne le fait plus.</li>
+  <li>Sur une tâche qui a des sous-tâches, la date se posait avant « 3 sous-tâches ⌄ » — décalée de plusieurs centimètres par rapport aux lignes voisines. Elle passe à droite du chevron : toutes les dates d'une page tombent maintenant au même endroit, qu'une tâche ait des sous-tâches ou non.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.54/Today-release.dmg"
-        length="7906149"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.55/Today-release.dmg"
+        length="7906534"
         type="application/octet-stream"
-        sparkle:edSignature="xLQjwW+m+YuxoSvw6JGnU9zHTaBBcwnfcy1BDAbaWYM7mPqBfHz3/1P8Lr9XK2vlT+gy09mj0cp45sO3B1mwBw==" />
+        sparkle:edSignature="yxvqcOEmGdVPFEvpFJ8ktVWlXPZv8NSqScVf2zE/Y2icVhIMEFsZifNRu65ih8Haccaq6fDnB5N2Tmpa+7uBCw==" />
     </item>
   </channel>
 </rss>
