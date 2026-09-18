@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.52</title>
-      <pubDate>Thu, 17 Sep 2026 18:54:53 +0200</pubDate>
-      <sparkle:version>51</sparkle:version>
-      <sparkle:shortVersionString>0.52</sparkle:shortVersionString>
+      <title>Version 0.53</title>
+      <pubDate>Fri, 18 Sep 2026 10:36:26 +0200</pubDate>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>0.53</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,20 +20,17 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.52</h2>
-<p>Ajoutez une sous-tâche sans ouvrir la tâche</p>
+<h2>Today 0.53</h2>
+<p>La coche d'une sous-tâche rebondit sous le clic</p>
 <ul>
-  <li>- Au survol d'une tâche, une icône de checklist apparaît à côté du calendrier : un clic ouvre la tâche avec une sous-tâche vide, prête à taper. Avant, il fallait double-cliquer la tâche puis retrouver l'icône dans la carte.</li>
-  <li>- Cette icône a disparu de la carte ouverte : elle faisait doublon avec celle du survol, et chaque clic de plus y ajoutait une sous-tâche vide. Une sous-tâche s'enchaîne toujours avec Entrée depuis la précédente.</li>
-  <li>- Les icônes de date et de priorité se posent maintenant tout en bas de la carte, sous les sous-tâches, au lieu de flotter entre la note et elles.</li>
-  <li>Ajoutez une sous-tâche sans ouvrir la tâche</li>
+  <li>- En cochant une sous-tâche, sa case se creuse puis rebondit, exactement comme celle d'une tâche. C'était la seule case de l'app qui restait inerte sous le doigt.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.52/Today-release.dmg"
-        length="7906220"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.53/Today-release.dmg"
+        length="7905987"
         type="application/octet-stream"
-        sparkle:edSignature="X3ZXq99+UyRBANhoF2RL6nuIwgfoGb8hUQblT05jV6mcuvsb+yEcEL5KzlPL0hj5MSnw32fM7hhQOFwB4YqACg==" />
+        sparkle:edSignature="JdExKfQ37FRI01eTJvCbc2Sygd3tIj54vWcIYaksGS76XgRNOv7BEHGy3v6wK9B+QrcFGd7FvHPHCMuVCREBAA==" />
     </item>
   </channel>
 </rss>
