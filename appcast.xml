@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.55</title>
-      <pubDate>Fri, 18 Sep 2026 14:49:50 +0200</pubDate>
-      <sparkle:version>54</sparkle:version>
-      <sparkle:shortVersionString>0.55</sparkle:shortVersionString>
+      <title>Version 0.56</title>
+      <pubDate>Sat, 19 Sep 2026 12:39:04 +0200</pubDate>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>0.56</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,17 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.55</h2>
-<p>Vos dates s'alignent enfin sur une seule colonne</p>
+<h2>Today 0.56</h2>
+<p>Le glisser d'une tâche devient vraiment fluide</p>
 <ul>
-  <li>Sur une tâche qui a des sous-tâches, la date se posait avant « 3 sous-tâches ⌄ » — décalée de plusieurs centimètres par rapport aux lignes voisines. Elle passe à droite du chevron : toutes les dates d'une page tombent maintenant au même endroit, qu'une tâche ait des sous-tâches ou non.</li>
+  <li>Déplacer une tâche colle enfin au curseur, sur une liste comme sur « Aujourd'hui » et « Tâches ». La page entière se reconstruisait deux fois par image de glissement pour ne bouger qu'une seule ligne ; elle ne se reconstruit plus du tout.</li>
+  <li>La barre latérale s'était invitée dans le même calcul : elle se redessinait en entier, compteurs de projets recomptés compris, pendant qu'on lui apportait une tâche. Plus maintenant.</li>
+  <li>Rien ne change sous les doigts : mêmes gestes, même trou d'insertion, même rangement vers la barre latérale. Juste sans la friction.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.55/Today-release.dmg"
-        length="7906534"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.56/Today-release.dmg"
+        length="8567112"
         type="application/octet-stream"
-        sparkle:edSignature="yxvqcOEmGdVPFEvpFJ8ktVWlXPZv8NSqScVf2zE/Y2icVhIMEFsZifNRu65ih8Haccaq6fDnB5N2Tmpa+7uBCw==" />
+        sparkle:edSignature="lnogMZMsMrlyIr4sEe5HUA0TCOfBlD9A78woTGkQ+eTSV1QFYY3eIqKzIXOMH1CTqZ/X72AamahBa8Xw9VpoDg==" />
     </item>
   </channel>
 </rss>
