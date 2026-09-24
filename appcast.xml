@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.56</title>
-      <pubDate>Sat, 19 Sep 2026 12:39:04 +0200</pubDate>
-      <sparkle:version>55</sparkle:version>
-      <sparkle:shortVersionString>0.56</sparkle:shortVersionString>
+      <title>Version 0.57</title>
+      <pubDate>Thu, 24 Sep 2026 13:33:31 +0200</pubDate>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>0.57</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.56</h2>
-<p>Le glisser d'une tâche devient vraiment fluide</p>
+<h2>Today 0.57</h2>
+<p>Ouvrir une tâche devient fluide</p>
 <ul>
-  <li>Déplacer une tâche colle enfin au curseur, sur une liste comme sur « Aujourd'hui » et « Tâches ». La page entière se reconstruisait deux fois par image de glissement pour ne bouger qu'une seule ligne ; elle ne se reconstruit plus du tout.</li>
-  <li>La barre latérale s'était invitée dans le même calcul : elle se redessinait en entier, compteurs de projets recomptés compris, pendant qu'on lui apportait une tâche. Plus maintenant.</li>
-  <li>Rien ne change sous les doigts : mêmes gestes, même trou d'insertion, même rangement vers la barre latérale. Juste sans la friction.</li>
+  <li>Un double-clic sur une tâche l'ouvre maintenant d'un seul mouvement : la carte, la note et les sous-tâches s'ouvrent ensemble, sans à-coup ni titre dédoublé.</li>
+  <li>Le curseur se pose dans le titre une fois la carte ouverte.</li>
+  <li>L'icône « Ajouter une sous-tâche » est de retour dans la tâche ouverte, à côté du calendrier. Un deuxième clic reprend la sous-tâche vide au lieu d'en ajouter une autre.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.56/Today-release.dmg"
-        length="8567112"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.57/Today-release.dmg"
+        length="7804532"
         type="application/octet-stream"
-        sparkle:edSignature="lnogMZMsMrlyIr4sEe5HUA0TCOfBlD9A78woTGkQ+eTSV1QFYY3eIqKzIXOMH1CTqZ/X72AamahBa8Xw9VpoDg==" />
+        sparkle:edSignature="nywH7n8B7ORCNYyDknkLcrsHKoRVEoYp+YFq90McaBCEjWimhanyNYykASGZK7gpNAiqTuB5reVSAobmgvrLCA==" />
     </item>
   </channel>
 </rss>
