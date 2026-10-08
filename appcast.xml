@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.57</title>
-      <pubDate>Thu, 24 Sep 2026 13:33:31 +0200</pubDate>
-      <sparkle:version>56</sparkle:version>
-      <sparkle:shortVersionString>0.57</sparkle:shortVersionString>
+      <title>Version 0.58</title>
+      <pubDate>Thu, 08 Oct 2026 23:41:53 +0200</pubDate>
+      <sparkle:version>57</sparkle:version>
+      <sparkle:shortVersionString>0.58</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,21 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.57</h2>
-<p>Ouvrir une tâche devient fluide</p>
+<h2>Today 0.58</h2>
+<p>Today devient nettement plus fluide</p>
 <ul>
-  <li>Un double-clic sur une tâche l'ouvre maintenant d'un seul mouvement : la carte, la note et les sous-tâches s'ouvrent ensemble, sans à-coup ni titre dédoublé.</li>
-  <li>Le curseur se pose dans le titre une fois la carte ouverte.</li>
-  <li>L'icône « Ajouter une sous-tâche » est de retour dans la tâche ouverte, à côté du calendrier. Un deuxième clic reprend la sous-tâche vide au lieu d'en ajouter une autre.</li>
+  <li>Cocher une tâche la fait descendre d'un trait, sans à-coup.</li>
+  <li>Ajouter une tâche s'affiche plus vite.</li>
+  <li>Les petits accrocs qui survenaient une seconde après chaque action disparaissent : la synchronisation avec Rappels et Calendrier ne gêne plus l'affichage.</li>
+  <li>Renommer une tâche liée à un rappel ne ralentit plus la frappe.</li>
+  <li>Les animations gardent exactement le même mouvement, mais s'arrêtent net au lieu de traîner.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.57/Today-release.dmg"
-        length="7804532"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.58/Today-release.dmg"
+        length="7816419"
         type="application/octet-stream"
-        sparkle:edSignature="nywH7n8B7ORCNYyDknkLcrsHKoRVEoYp+YFq90McaBCEjWimhanyNYykASGZK7gpNAiqTuB5reVSAobmgvrLCA==" />
+        sparkle:edSignature="vtK+WINei1kYNaUsYHedStCuHBezk6Et107Wd+wCp5xdO5IPxLHhxUmS5aY0T3bNA2352241wm/K/3arh3MfAg==" />
     </item>
   </channel>
 </rss>
