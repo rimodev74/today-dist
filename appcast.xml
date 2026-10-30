@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.62</title>
-      <pubDate>Fri, 30 Oct 2026 21:34:50 +0100</pubDate>
-      <sparkle:version>61</sparkle:version>
-      <sparkle:shortVersionString>0.62</sparkle:shortVersionString>
+      <title>Version 0.63</title>
+      <pubDate>Fri, 30 Oct 2026 22:51:58 +0100</pubDate>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>0.63</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,27 +20,20 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.62</h2>
-<p>Today se connecte à Claude Code</p>
+<h2>Today 0.63</h2>
+<p>Plus de clarté et de fiabilité</p>
 <ul>
-  <li>Nouvel onglet Réglages ▸ Claude Code : activez-le, copiez la commande affichée et collez-la une fois dans un terminal.</li>
-  <li>Claude Code peut alors créer et faire avancer vos projets dans Today : listes, tâches, sous-tâches et notes, quand vous le lui demandez.</li>
-  <li>Relancer une synchronisation met à jour sans rien créer en double.</li>
-  <li>Claude ne supprime rien sans votre confirmation.</li>
-  <li>Tout reste sur votre Mac : la connexion est protégée par une clé et refusée aux navigateurs.</li>
-  <li>MCP : corrections de la relecture (annulation, notes, sous-tâches, connexions)</li>
-  <li>MCP : réglages et branchement dans l'app</li>
-  <li>MCP : serveur HTTP local, clé et refus des navigateurs</li>
-  <li>MCP : suppression sur demande, projet supprimé par un chemin partagé</li>
-  <li>MCP : routeur JSON-RPC et outils de lecture et d'écriture</li>
-  <li>MCP : design et plan</li>
+  <li>Le fil d'Ariane en haut des pages reste lisible, même quand le contenu défile dessous.</li>
+  <li>Page Projets : toutes les cartes ont la même taille et montrent jusqu'à 3 listes.</li>
+  <li>Cocher et décocher vite une tâche liée à Rappels ne l'inverse plus toute seule quelques secondes après.</li>
+  <li>Réglages ▸ Claude Code : le bouton confirme « Copié ! », et régénérer la clé n'échoue plus.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.62/Today-release.dmg"
-        length="5534275"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.63/Today-release.dmg"
+        length="5529072"
         type="application/octet-stream"
-        sparkle:edSignature="OCmTM1qAyqTMDJAnHUnUdFCuz8ylJ6JLTK0WUHsbv1quGTRFsZiFHXy57CCIqHOzyWWDqT348YqlEVwDsy2dCQ==" />
+        sparkle:edSignature="YZaS2EYdhF6F6o+VD0SFNIykC2HbGmD8ASLvnn0hEphDrdyLQhPUi/YjB/VWEZlUCQqtIUABAHQMG5rw3laECg==" />
     </item>
   </channel>
 </rss>
