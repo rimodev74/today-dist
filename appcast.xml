@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.64</title>
-      <pubDate>Fri, 30 Oct 2026 23:02:32 +0100</pubDate>
-      <sparkle:version>63</sparkle:version>
-      <sparkle:shortVersionString>0.64</sparkle:shortVersionString>
+      <title>Version 0.65</title>
+      <pubDate>Fri, 30 Oct 2026 23:35:07 +0100</pubDate>
+      <sparkle:version>64</sparkle:version>
+      <sparkle:shortVersionString>0.65</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,17 +20,14 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.64</h2>
-<p>Petite finition</p>
-<ul>
-  <li>Réglages ▸ Claude Code : le bouton « Copier la commande » garde sa taille quand il affiche « Copié ! ».</li>
-</ul>
+<h2>Today 0.65</h2>
+<p>Les raccourcis texte marchent dans la capsule : tapez « ajd », « dem » ou le vôtre, puis Entrée — la commande se lance, la liste ou la date s'ouvre. Nouveau réglage : masquer l'icône du Dock (Réglages ▸ Général) ; Today reste ouvrable depuis son icône de barre de menus (« Ouvrir Today ») ou le raccourci de saisie rapide.</p>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.64/Today-release.dmg"
-        length="5531038"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.65/Today-release.dmg"
+        length="5544732"
         type="application/octet-stream"
-        sparkle:edSignature="nN84FwG1RK8syQIAWMCA0EPXu2CezENVbboKq2VDt7UJuDXVhB+XdT6zxNwK7Cq/5dxRSN0kYtzt4H4LZXD9Dw==" />
+        sparkle:edSignature="xf/ThV2VP8HWdCIgi2YQsUOGMI39k+SePwZMrKpjLjGS1YMGvThDbad/XmUtLbDqMYUD17Yp4aZG0o8z7TahAg==" />
     </item>
   </channel>
 </rss>
