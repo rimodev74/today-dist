@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.61</title>
-      <pubDate>Fri, 30 Oct 2026 17:27:31 +0100</pubDate>
-      <sparkle:version>60</sparkle:version>
-      <sparkle:shortVersionString>0.61</sparkle:shortVersionString>
+      <title>Version 0.62</title>
+      <pubDate>Fri, 30 Oct 2026 21:34:50 +0100</pubDate>
+      <sparkle:version>61</sparkle:version>
+      <sparkle:shortVersionString>0.62</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,20 +20,27 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.61</h2>
-<p>Cocher une tâche devient fluide</p>
+<h2>Today 0.62</h2>
+<p>Today se connecte à Claude Code</p>
 <ul>
-  <li>La tâche cochée glisse vers le bas d'un seul bloc : sa case et son titre voyagent enfin ensemble.</li>
-  <li>Elle passe en transparence derrière les autres tâches au lieu de les chevaucher.</li>
-  <li>Le titre ne s'affiche plus en double pendant l'animation.</li>
-  <li>Même correction pour les sous-tâches et les en-têtes de section.</li>
+  <li>Nouvel onglet Réglages ▸ Claude Code : activez-le, copiez la commande affichée et collez-la une fois dans un terminal.</li>
+  <li>Claude Code peut alors créer et faire avancer vos projets dans Today : listes, tâches, sous-tâches et notes, quand vous le lui demandez.</li>
+  <li>Relancer une synchronisation met à jour sans rien créer en double.</li>
+  <li>Claude ne supprime rien sans votre confirmation.</li>
+  <li>Tout reste sur votre Mac : la connexion est protégée par une clé et refusée aux navigateurs.</li>
+  <li>MCP : corrections de la relecture (annulation, notes, sous-tâches, connexions)</li>
+  <li>MCP : réglages et branchement dans l'app</li>
+  <li>MCP : serveur HTTP local, clé et refus des navigateurs</li>
+  <li>MCP : suppression sur demande, projet supprimé par un chemin partagé</li>
+  <li>MCP : routeur JSON-RPC et outils de lecture et d'écriture</li>
+  <li>MCP : design et plan</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.61/Today-release.dmg"
-        length="5453403"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.62/Today-release.dmg"
+        length="5534275"
         type="application/octet-stream"
-        sparkle:edSignature="NkmtlcKr3Zt27rEf2GxqgzLYM2QvJ1ZuSn/nT9uvR6LJEmjvrAnWUmA1ZCHLyuQA5+cDxxXrgAMQMe5qO6FmCA==" />
+        sparkle:edSignature="OCmTM1qAyqTMDJAnHUnUdFCuz8ylJ6JLTK0WUHsbv1quGTRFsZiFHXy57CCIqHOzyWWDqT348YqlEVwDsy2dCQ==" />
     </item>
   </channel>
 </rss>
