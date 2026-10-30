@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.59</title>
-      <pubDate>Fri, 30 Oct 2026 12:53:31 +0100</pubDate>
-      <sparkle:version>58</sparkle:version>
-      <sparkle:shortVersionString>0.59</sparkle:shortVersionString>
+      <title>Version 0.60</title>
+      <pubDate>Fri, 30 Oct 2026 13:48:08 +0100</pubDate>
+      <sparkle:version>59</sparkle:version>
+      <sparkle:shortVersionString>0.60</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,29 +20,19 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.59</h2>
-<p>Today devient nettement plus fluide, et vos projets ont enfin leur vue d'ensemble</p>
+<h2>Today 0.60</h2>
+<p>Choisissez la couleur de vos projets</p>
 <ul>
-  <li>Nouvelle page « Projets » (⌘6), en tête de la barre latérale : tous vos projets d'un coup d'œil, avec leur avancement et celui de chaque liste.</li>
-  <li>Donnez une image de couverture à chaque projet : choisissez un fichier, ou glissez une image depuis le Finder sur le titre du projet.</li>
-  <li>Un fil d'Ariane en haut de la fenêtre (Projets / Projet / Liste) vous ramène en arrière en un clic.</li>
-  <li>Ouvrir une tâche est fluide : les petits accrocs qui survenaient au hasard après un double-clic ont disparu.</li>
-  <li>« Aujourd'hui » et « À venir » ne figent plus l'app quand votre calendrier se met à jour.</li>
-  <li>Le choix de date, l'envoi vers Rappels et la date d'une liste s'ouvrent désormais dans la fenêtre, de façon plus stable.</li>
-  <li>La synchronisation avec Rappels ne supprime plus une tâche sur un simple trou passager d'iCloud.</li>
-  <li>La saisie rapide garde ce que vous avez tapé si vous cliquez à côté.</li>
-  <li>Le minuteur Pomodoro reste exact même après une mise en veille, et la barre de menus affiche les minutes.</li>
-  <li>Les tâches anciennes ne pâlissent plus.</li>
-  <li>« Archives » s'ouvre plus vite : les mois plus anciens s'affichent à la demande.</li>
-  <li>Cette version est signée avec un nouveau certificat : macOS peut vous redemander l'accès à Rappels et Calendrier, une seule fois.</li>
-  <li>Signer avec le certificat local Ryan Local Dev (valide jusqu'en 2036)</li>
+  <li>Le clic droit sur un projet propose maintenant une pastille « Couleur personnalisée… » au bout de la palette. Elle ouvre le sélecteur de couleur de macOS : roue, pipette, code hexadécimal et vos couleurs enregistrées.</li>
+  <li>La couleur choisie s'applique partout : icône, anneaux, barres d'avancement, bandeau et vue Projets.</li>
+  <li>En mode sombre, elle s'éclaircit d'elle-même pour rester lisible.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.59/Today-release.dmg"
-        length="5434473"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.60/Today-release.dmg"
+        length="5443665"
         type="application/octet-stream"
-        sparkle:edSignature="+cuGk9v9uoiTTXdIh206TAB95GQm+MmcGS25oNSyOD4a488EfhyRiKvdGcSLY8qyIL37r7f73HzKgTYpeoF7Bg==" />
+        sparkle:edSignature="pEKDDIlYEHqMrLqptkAEkfiblhkCrLNpxVGTBqUsKee1WoDPcQYDQ4cWx17AMxXF+ix+h3zx+8SbcY/RzTP3DA==" />
     </item>
   </channel>
 </rss>
