@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.60</title>
-      <pubDate>Fri, 30 Oct 2026 13:48:08 +0100</pubDate>
-      <sparkle:version>59</sparkle:version>
-      <sparkle:shortVersionString>0.60</sparkle:shortVersionString>
+      <title>Version 0.61</title>
+      <pubDate>Fri, 30 Oct 2026 17:27:31 +0100</pubDate>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:shortVersionString>0.61</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,19 +20,20 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.60</h2>
-<p>Choisissez la couleur de vos projets</p>
+<h2>Today 0.61</h2>
+<p>Cocher une tâche devient fluide</p>
 <ul>
-  <li>Le clic droit sur un projet propose maintenant une pastille « Couleur personnalisée… » au bout de la palette. Elle ouvre le sélecteur de couleur de macOS : roue, pipette, code hexadécimal et vos couleurs enregistrées.</li>
-  <li>La couleur choisie s'applique partout : icône, anneaux, barres d'avancement, bandeau et vue Projets.</li>
-  <li>En mode sombre, elle s'éclaircit d'elle-même pour rester lisible.</li>
+  <li>La tâche cochée glisse vers le bas d'un seul bloc : sa case et son titre voyagent enfin ensemble.</li>
+  <li>Elle passe en transparence derrière les autres tâches au lieu de les chevaucher.</li>
+  <li>Le titre ne s'affiche plus en double pendant l'animation.</li>
+  <li>Même correction pour les sous-tâches et les en-têtes de section.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.60/Today-release.dmg"
-        length="5443665"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.61/Today-release.dmg"
+        length="5453403"
         type="application/octet-stream"
-        sparkle:edSignature="pEKDDIlYEHqMrLqptkAEkfiblhkCrLNpxVGTBqUsKee1WoDPcQYDQ4cWx17AMxXF+ix+h3zx+8SbcY/RzTP3DA==" />
+        sparkle:edSignature="NkmtlcKr3Zt27rEf2GxqgzLYM2QvJ1ZuSn/nT9uvR6LJEmjvrAnWUmA1ZCHLyuQA5+cDxxXrgAMQMe5qO6FmCA==" />
     </item>
   </channel>
 </rss>
