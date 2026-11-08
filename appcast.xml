@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.65</title>
-      <pubDate>Fri, 30 Oct 2026 23:35:07 +0100</pubDate>
-      <sparkle:version>64</sparkle:version>
-      <sparkle:shortVersionString>0.65</sparkle:shortVersionString>
+      <title>Version 0.66</title>
+      <pubDate>Sun, 08 Nov 2026 13:50:27 +0100</pubDate>
+      <sparkle:version>65</sparkle:version>
+      <sparkle:shortVersionString>0.66</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,14 +20,17 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.65</h2>
-<p>Les raccourcis texte marchent dans la capsule : tapez « ajd », « dem » ou le vôtre, puis Entrée — la commande se lance, la liste ou la date s'ouvre. Nouveau réglage : masquer l'icône du Dock (Réglages ▸ Général) ; Today reste ouvrable depuis son icône de barre de menus (« Ouvrir Today ») ou le raccourci de saisie rapide.</p>
+<h2>Today 0.66</h2>
+<p>Les notes s'affichent en entier</p>
+<ul>
+  <li>Les notes sous le titre d'une liste ou d'une tâche ne débordent plus de leur cadre à l'ouverture.</li>
+</ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.65/Today-release.dmg"
-        length="5544732"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.66/Today-release.dmg"
+        length="5544866"
         type="application/octet-stream"
-        sparkle:edSignature="xf/ThV2VP8HWdCIgi2YQsUOGMI39k+SePwZMrKpjLjGS1YMGvThDbad/XmUtLbDqMYUD17Yp4aZG0o8z7TahAg==" />
+        sparkle:edSignature="FsZ8K42nKoSGkKMpreNPTUEgzRM4DzB7TvI0kMgmCgU1dzY0buOsyMU55l8Eetib2CCZkNOldoLHMYJan8E4Cg==" />
     </item>
   </channel>
 </rss>
