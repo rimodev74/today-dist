@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.66</title>
-      <pubDate>Sun, 08 Nov 2026 13:50:27 +0100</pubDate>
-      <sparkle:version>65</sparkle:version>
-      <sparkle:shortVersionString>0.66</sparkle:shortVersionString>
+      <title>Version 0.67</title>
+      <pubDate>Fri, 13 Nov 2026 18:41:35 +0100</pubDate>
+      <sparkle:version>66</sparkle:version>
+      <sparkle:shortVersionString>0.67</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,17 +20,18 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.66</h2>
-<p>Les notes s'affichent en entier</p>
+<h2>Today 0.67</h2>
+<p>Notes et glisser plus soignés</p>
 <ul>
-  <li>Les notes sous le titre d'une liste ou d'une tâche ne débordent plus de leur cadre à l'ouverture.</li>
+  <li>Les notes d'un projet s'affichent sur toute la largeur de leur cadre au lieu d'une colonne étroite qui débordait.</li>
+  <li>Une tâche glissée avec ses sous-tâches dépliées les retrouve en douceur à son arrivée : elles réapparaissent en fondu avec elle au lieu de glisser de leur côté.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.66/Today-release.dmg"
-        length="5544866"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.67/Today-release.dmg"
+        length="5545755"
         type="application/octet-stream"
-        sparkle:edSignature="FsZ8K42nKoSGkKMpreNPTUEgzRM4DzB7TvI0kMgmCgU1dzY0buOsyMU55l8Eetib2CCZkNOldoLHMYJan8E4Cg==" />
+        sparkle:edSignature="J1NcXwJWyR7jerRwtJG3dRnxZnWk/cSXEcX/ztzXzr2k9pCQyPvticliWEO9lMI6i5BNA1MdVexYpBdvPsCzDw==" />
     </item>
   </channel>
 </rss>
