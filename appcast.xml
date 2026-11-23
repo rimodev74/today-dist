@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.67</title>
-      <pubDate>Fri, 13 Nov 2026 18:41:35 +0100</pubDate>
-      <sparkle:version>66</sparkle:version>
-      <sparkle:shortVersionString>0.67</sparkle:shortVersionString>
+      <title>Version 0.68</title>
+      <pubDate>Mon, 23 Nov 2026 17:48:03 +0100</pubDate>
+      <sparkle:version>67</sparkle:version>
+      <sparkle:shortVersionString>0.68</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,18 +20,21 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.67</h2>
-<p>Notes et glisser plus soignés</p>
+<h2>Today 0.68</h2>
+<p>Rattachez une tâche à un projet sans la ranger dans une liste</p>
 <ul>
-  <li>Les notes d'un projet s'affichent sur toute la largeur de leur cadre au lieu d'une colonne étroite qui débordait.</li>
-  <li>Une tâche glissée avec ses sous-tâches dépliées les retrouve en douceur à son arrivée : elles réapparaissent en fondu avec elle au lieu de glisser de leur côté.</li>
+  <li>- Clic droit ▸ Déplacer vers… ▸ un projet ▸ Sans liste, ou tapez #NomDuProjet en saisissant la tâche, ou glissez-la sur le projet dans la barre latérale.</li>
+  <li>- Elle reste dans Tâches, avec une pastille à la couleur du projet : plus besoin d'écrire le nom du projet dans le titre.</li>
+  <li>- La page du projet l'affiche en tête, au-dessus des listes. ⌘N ou + y créent directement une tâche rattachée.</li>
+  <li>- La barre d'avancement du projet et sa carte dans Projets la comptent.</li>
+  <li>- #NomDuProjet rattache désormais la tâche au projet, au lieu de la ranger dans sa première liste.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.67/Today-release.dmg"
-        length="5545755"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.68/Today-release.dmg"
+        length="5599038"
         type="application/octet-stream"
-        sparkle:edSignature="J1NcXwJWyR7jerRwtJG3dRnxZnWk/cSXEcX/ztzXzr2k9pCQyPvticliWEO9lMI6i5BNA1MdVexYpBdvPsCzDw==" />
+        sparkle:edSignature="spmX/6fSpBRcY1GqXxn5p8M5z2zJW/0OqOW9rRcO3j084koYsrGZCerG6wjKSbBnJ1c1gi5nYWRLIoR6BWmUAA==" />
     </item>
   </channel>
 </rss>
