@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.68</title>
-      <pubDate>Mon, 23 Nov 2026 17:48:03 +0100</pubDate>
-      <sparkle:version>67</sparkle:version>
-      <sparkle:shortVersionString>0.68</sparkle:shortVersionString>
+      <title>Version 0.69</title>
+      <pubDate>Tue, 24 Nov 2026 11:06:36 +0100</pubDate>
+      <sparkle:version>68</sparkle:version>
+      <sparkle:shortVersionString>0.69</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,21 +20,21 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.68</h2>
-<p>Rattachez une tâche à un projet sans la ranger dans une liste</p>
+<h2>Today 0.69</h2>
+<p>Regroupez vos projets en zones</p>
 <ul>
-  <li>- Clic droit ▸ Déplacer vers… ▸ un projet ▸ Sans liste, ou tapez #NomDuProjet en saisissant la tâche, ou glissez-la sur le projet dans la barre latérale.</li>
-  <li>- Elle reste dans Tâches, avec une pastille à la couleur du projet : plus besoin d'écrire le nom du projet dans le titre.</li>
-  <li>- La page du projet l'affiche en tête, au-dessus des listes. ⌘N ou + y créent directement une tâche rattachée.</li>
-  <li>- La barre d'avancement du projet et sa carte dans Projets la comptent.</li>
-  <li>- #NomDuProjet rattache désormais la tâche au projet, au lieu de la ranger dans sa première liste.</li>
+  <li>Une zone rassemble plusieurs projets, par exemple une agence et ses clients. Clic droit sur un projet ▸ Zone ▸ Nouvelle zone avec ce projet, ou clic droit sur « Nouveau projet » en bas de la barre latérale.</li>
+  <li>Glissez un projet sous l'en-tête d'une zone pour l'y ranger, ou au-dessus pour l'en sortir. L'en-tête se replie avec sa flèche et se renomme d'un double-clic.</li>
+  <li>La page Projets montre une section par zone.</li>
+  <li>Supprimer une zone ne supprime aucun projet : ils reviennent en haut de la barre latérale.</li>
+  <li>La pastille d'un projet sur une tâche est plus sobre, sans le point coloré.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.68/Today-release.dmg"
-        length="5599038"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.69/Today-release.dmg"
+        length="5674213"
         type="application/octet-stream"
-        sparkle:edSignature="spmX/6fSpBRcY1GqXxn5p8M5z2zJW/0OqOW9rRcO3j084koYsrGZCerG6wjKSbBnJ1c1gi5nYWRLIoR6BWmUAA==" />
+        sparkle:edSignature="+xbPDrTgopZ75UuHCOTcCmhd7vI9mbZQhvrweqQstzM6uLBzj5g7bDyao4PGn26GZrnJTqROsqEHYAPry6W6Aw==" />
     </item>
   </channel>
 </rss>
