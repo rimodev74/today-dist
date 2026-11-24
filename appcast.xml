@@ -6,10 +6,10 @@
     <description>Auto-updates for Today app</description>
     <!-- Généré par Scripts/release.sh — ne pas éditer à la main. -->
     <item>
-      <title>Version 0.69</title>
-      <pubDate>Tue, 24 Nov 2026 11:06:36 +0100</pubDate>
-      <sparkle:version>68</sparkle:version>
-      <sparkle:shortVersionString>0.69</sparkle:shortVersionString>
+      <title>Version 0.70</title>
+      <pubDate>Tue, 24 Nov 2026 16:20:02 +0100</pubDate>
+      <sparkle:version>69</sparkle:version>
+      <sparkle:shortVersionString>0.70</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -20,21 +20,18 @@
   p, li { line-height: 1.45; }
   ol, ul { padding-left: 1.2em; }
 </style>
-<h2>Today 0.69</h2>
-<p>Regroupez vos projets en zones</p>
+<h2>Today 0.70</h2>
+<p>Créez une zone d'un clic droit</p>
 <ul>
-  <li>Une zone rassemble plusieurs projets, par exemple une agence et ses clients. Clic droit sur un projet ▸ Zone ▸ Nouvelle zone avec ce projet, ou clic droit sur « Nouveau projet » en bas de la barre latérale.</li>
-  <li>Glissez un projet sous l'en-tête d'une zone pour l'y ranger, ou au-dessus pour l'en sortir. L'en-tête se replie avec sa flèche et se renomme d'un double-clic.</li>
-  <li>La page Projets montre une section par zone.</li>
-  <li>Supprimer une zone ne supprime aucun projet : ils reviennent en haut de la barre latérale.</li>
-  <li>La pastille d'un projet sur une tâche est plus sobre, sans le point coloré.</li>
+  <li>Clic droit dans la barre latérale ▸ Nouvelle zone (ou Nouveau projet).</li>
+  <li>Le bouton « Nouveau projet » en bas de la barre latérale ne crée plus que des projets.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/rimodev74/today-dist/releases/download/v0.69/Today-release.dmg"
-        length="5674213"
+        url="https://github.com/rimodev74/today-dist/releases/download/v0.70/Today-release.dmg"
+        length="5675540"
         type="application/octet-stream"
-        sparkle:edSignature="+xbPDrTgopZ75UuHCOTcCmhd7vI9mbZQhvrweqQstzM6uLBzj5g7bDyao4PGn26GZrnJTqROsqEHYAPry6W6Aw==" />
+        sparkle:edSignature="INhWRfNKKWTQ8BcOmeBUayuqfKiimp/nFhEthmpD36qUG6aO36LBHRoNiz/q9fFF8I/gAygtfvzdB6kkXrllAQ==" />
     </item>
   </channel>
 </rss>
